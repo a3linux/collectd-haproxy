@@ -40,7 +40,8 @@ Example
 
         <Module haproxy>
           Socket "/var/run/haproxy.sock"
-          ProxyMonitor "server"
-          ProxyMonitor "backend"
         </Module>
     </Plugin>
+
+
+This fork remove the ProxyMonitor and ProxyIgnore from the origin one and the configuration is simple.
